@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FFDFcPMkMoVuIE9fxDTQLtGLDZaLNMIkoa+L0h84+cbi7kTU6THrofAak1skxxPZmXg9pooZ6RfFxZsow8O92w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vyatalech\\source\\repos\\NETPROJECT\\NETPROJECT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vyatalech\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.12\\microsoft.netcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
+    "C:\\Users\\Vyatalech\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.12\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.12.nupkg.sha512",
+    "C:\\Users\\Vyatalech\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.12\\microsoft.aspnetcore.app.runtime.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

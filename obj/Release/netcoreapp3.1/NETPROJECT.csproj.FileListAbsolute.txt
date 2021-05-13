@@ -1,0 +1,13 @@
+C:\Users\Vyatalech\source\repos\NETPROJECT\bin\Release\netcoreapp3.1\NETPROJECT.exe
+C:\Users\Vyatalech\source\repos\NETPROJECT\bin\Release\netcoreapp3.1\NETPROJECT.deps.json
+C:\Users\Vyatalech\source\repos\NETPROJECT\bin\Release\netcoreapp3.1\NETPROJECT.runtimeconfig.json
+C:\Users\Vyatalech\source\repos\NETPROJECT\bin\Release\netcoreapp3.1\NETPROJECT.runtimeconfig.dev.json
+C:\Users\Vyatalech\source\repos\NETPROJECT\bin\Release\netcoreapp3.1\NETPROJECT.dll
+C:\Users\Vyatalech\source\repos\NETPROJECT\bin\Release\netcoreapp3.1\NETPROJECT.pdb
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.AssemblyInfoInputs.cache
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.AssemblyInfo.cs
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.csproj.CoreCompileInputs.cache
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.dll
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.pdb
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.genruntimeconfig.cache
+C:\Users\Vyatalech\source\repos\NETPROJECT\obj\Release\netcoreapp3.1\NETPROJECT.csprojAssemblyReference.cache

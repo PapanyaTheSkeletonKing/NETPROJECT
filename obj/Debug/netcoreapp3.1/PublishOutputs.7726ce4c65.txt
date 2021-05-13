@@ -1,0 +1,5 @@
+C:\Users\Vyatalech\Desktop\Нова папка\NETPROJECT.exe
+C:\Users\Vyatalech\Desktop\Нова папка\NETPROJECT.dll
+C:\Users\Vyatalech\Desktop\Нова папка\NETPROJECT.deps.json
+C:\Users\Vyatalech\Desktop\Нова папка\NETPROJECT.runtimeconfig.json
+C:\Users\Vyatalech\Desktop\Нова папка\NETPROJECT.pdb

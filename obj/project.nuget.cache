@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qbhLQPZwLNvbEbbrKrOYbSply1n6+emqtVofyDZm9zakiuJSuA1OugdOS1CqemZvBeiPsK7KqEoScDYHI6u4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vyatalech\\source\\repos\\NETPROJECT\\NETPROJECT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vyatalech\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}
