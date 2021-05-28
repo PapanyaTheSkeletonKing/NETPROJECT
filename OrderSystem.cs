@@ -6,6 +6,9 @@ namespace NETPROJECT
     public class OrderSystem
     {
         public List<Profile> Profiles { get; set; } = new List<Profile>();
+
+        public List<User> Users { get; set; } = new List<User>();
+        public List<Administrator> Administrators { get; set; } = new List<Administrator>();
         public List<Category> Categories { get; set; } = new List<Category>();
         public List<Order> Orders { get; set; } = new List<Order>();
 
@@ -50,17 +53,18 @@ namespace NETPROJECT
 	            SubCategoryId = 3
             });
             Categories[1].SubCategory = Categories[2];
-
-
         }
         
         private void InitProfiles()
         {
             User user1 = new CommonUser(0,"X",DateTime.Now,5,
                 "+380*********","@gmail",Orders,true);
+            Users.Add(user1);
             Profile prof1 = new Profile(0, user1, "url", Orders);
-            User user2 = new Administrator(1,"Ozon",DateTime.Now,4.5,
+            Administrator user2 = new Administrator(1,"Ozon",DateTime.Now,4.5,
 	            "+380*********","@gmail",new List<Order>());
+            Administrators.Add(user2);
+
             Profile prof2 = new Profile(1, user2, "url1", Orders);
             
             Profiles.Add(prof1);
@@ -95,10 +99,8 @@ namespace NETPROJECT
 	        {
 		        OrderInfo = new OrderInfo(1, 200, "second order", "", "url")
 	        };
-            order1.PrintOrder();
-            prmOrder.PrintOrder();
-            
-            Orders.Add(order1);
+
+	        Orders.Add(order1);
             
             Orders.Add(new Order
             {

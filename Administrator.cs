@@ -6,6 +6,23 @@ namespace NETPROJECT
 {
     public class Administrator:User
     {
+	    public delegate void MessageHandler(Administrator administrator,Order order);
+
+	    private event MessageHandler _notifyUser;
+	    public event MessageHandler NotifyUser
+	    {
+		    add
+		    {
+			    _notifyUser += value;
+			    Console.WriteLine("Massage handler added;");
+		    }
+		    remove
+		    {
+			    _notifyUser -= value;
+			    Console.WriteLine("Massage handler removed;");
+		    }
+	    }
+	    
         public override void RemoveOrder(int orderId) { }
         public override void EditOrder(int orderId) { }
 
@@ -39,7 +56,10 @@ namespace NETPROJECT
         public Administrator()
         { }
 
-        public void AcceptOrder(int orderId) { }
+        public void AcceptOrder(Order order)
+        {
+	        _notifyUser?.Invoke(this, order);
+        }
         public void BAN(int userId,string banInfo) { }
         public void WarnUser(int userId, string warnMessage) { }
     }

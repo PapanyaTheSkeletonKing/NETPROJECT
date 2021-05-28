@@ -23,16 +23,8 @@ namespace NETPROJECT
 				WatchCount = watchCount
 			};
 			
-			SendOrderToValidation(order);
 			Console.WriteLine("Замовлення створено!\n");
 			return order;
-		}
-
-		public void SendOrderToValidation(Order order)
-		{
-			Console.WriteLine("Замовлення вiдправлене на обробку");
-			Thread.Sleep(2000);
-			order.OrderInfo.Validated = true;
 		}
 
 		public CommonUser(int id, string nickname, DateTime registrationDate,

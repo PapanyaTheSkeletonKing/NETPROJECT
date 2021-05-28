@@ -4,7 +4,8 @@ namespace NETPROJECT
 {
     public class Order
     {
-        public int Id { get; set; }
+	    public delegate void PrintHandler(string message);
+	    public int Id { get; set; }
         public OrderInfo OrderInfo { get; set; }
         public int SellerId { get; set; }
         public int CategoryId { get; set; }
@@ -14,9 +15,12 @@ namespace NETPROJECT
 
         public bool Watched => WatchCount != 0;
 
+        
         public virtual void PrintOrder()
         {
-	        Console.WriteLine(ToString());
+	        PrintHandler handler = delegate(string message) 
+		        { Console.WriteLine("Делегат класу замовлення викликаний з результатом: " + message); };
+	        handler(ToString());
         }
         public virtual void AddDescription(string description)
         {
@@ -69,7 +73,7 @@ namespace NETPROJECT
             DateOfCreation = DateTime.Now;
             WatchCount = 0;
         }
-        
+
         public OrderInfo GetOrderInfo() => new OrderInfo();
 
         public override string ToString()
